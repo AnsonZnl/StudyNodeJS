@@ -1,6 +1,6 @@
 ## 目录
 ### Node.js基础-Part1
-![](http://p0bnwspy9.bkt.clouddn.com/02-Node.js%E5%9F%BA%E7%A1%80-%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F.png)
+![](http://p0bnwspy9.bkt.clouddn.com/01-Node.js+Vue%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98.png)
 ### Node.js基础-Part2
 ![](http://p0bnwspy9.bkt.clouddn.com/02-Node.js%E5%9F%BA%E7%A1%80-%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F.png)
 ### Node.js基础-Part3
