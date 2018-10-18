@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>撩课学院-IT人的自我成长社区</title>
+    <meta name="keyword" content="撩课学院,教育,it线上教育">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="icon" href="images/lk_favicon.ico" type="image/x-icon"/>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body style="padding-right: inherit;">
+<div class="sign-top">
+    <div class="container">
+        <div class="link">
+            <ul>
+                <li class="on"><a href="/login">登录</a><span class="slider"></span></li>
+                <li><a href="/reg">注册</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="/">
+                <img src="images/lk_logo_sm.png" alt="" width="200">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="sign-body">
+    <div class="container clearfix" style="height: 475px;overflow:visible;">
+        <div class="ad">
+            <a href="#"
+               style="background: url(images/ad.jpg) center no-repeat; -webkit-background-size: cover;background-size: cover;"></a>
+        </div>
+        <div class="formBox log-form">
+            <h2>会员登录</h2>
+            <form id="login-form" action="/login" method="post">
+                <ul class="login-ul">
+                    <img class="log-img log-user" src="images/success.png"/>
+                    <li class="pa-msg">
+                        <input type="text" class="input-box" name="userName" id="user_name" placeholder="请输入您的用户名">
+                    </li>
+                    <li>
+                        <input type="password" class="input-box" id="pwd" name="loginPwd" placeholder="密码">
+                    </li>
+                    <li class="option">
+					<span class="text-left">
+						<input type="checkbox" id="remember">
+						<label for="remember">记住用户名</label>
+					</span><span class="text-right">
+						<a href="#">忘记密码?</a>
+					</span>
+                    </li>
+                    <li>
+                        <input type="submit" class="btn-large" id="login" value="登录">
+                    </li>
+                    <li class="option">
+                        还没有账号?<a href="/reg">立即注册</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div class="footer navbar-fixed-bottom">
+        Copyright&copy;2018-2028 撩课学院  旋之华
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: top;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.page{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+}
+
+/*头部样式*/
+.header{
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    /*box-shadow: 0 5px 5px #ccc;*/
+
+    /*定位*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header .header-in{
+    width: 1244px;
+    height: 100%;
+    /*background-color: red;*/
+    margin: 0 auto;
+}
+
+.header .header-in .header-left{
+    width: 435px;
+    height: 28px;
+    /*background-color: red;*/
+    float: left;
+    margin-top: 10px;
+}
+
+.header .header-in .header-left li{
+    float: left;
+    margin-right: 20px;
+}
+
+.header .header-in .header-left li a{
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: #444444;
+    font-size: 14px;
+}
+
+.header .header-in .header-left li a:hover{
+    color: #c90000;
+}
+
+.header .header-in .header-left li:nth-child(7) a{
+    font-size: 40px;
+    line-height: 2px;
+}
+
+.header .header-in .header-left .new{
+    width: 30px;
+    height: 14px;
+    background-color: #f4a523;
+    display: inline-block;
+    line-height: 14px;
+    margin-top: 6px;
+    margin-left: 2px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header .header-in .header-left .logo-pic a{
+    width: 80px;
+    height: 28px;display: inline-block;
+    background: url("../images/huaban_logo.png") no-repeat;
+    background-size:cover;
+}
+
+.header .header-in .header-center{
+    width: 675px;
+    height: 34px;
+    background-color: #ccc;
+    float: left;
+    margin-top: 7px;
+}
+
+.header .header-in .header-center input{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    resize: none;
+}
+
+.header .header-in .header-right{
+    width: 116px;
+    height: 48px;
+    float: right;
+}
+
+.header .header-in .header-right a{
+    float: right;
+    width: 52px;
+    height: 32px;
+    line-height: 32px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #383838;
+    border: 1px solid #d9d9d9;
+    margin-top: 7px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.header .header-in .header-right a:nth-child(1){
+     float: left;
+    background: linear-gradient(#E53E49, #D43636);
+    color: #fff;
+    border:1px solid #c90000;
+}
+
+.header .header-in .header-right a:nth-child(1):hover{
+    background-color: #E53E49;
+}
+/*头部样式*/
+
+/*轮播广告样式*/
+.slider-banner{
+    width: 100%;
+    height: 60px;
+    background-color: green;
+}
+
+.slider-banner ul{
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+.slider-banner ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.slider-banner ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-banner ul li:nth-child(1) a{
+    background: url("../images/top_banner01.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(2) a{
+    background: url("../images/top_banner02.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(3) a{
+    background: url("../images/top_banner03.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(4) a{
+    background: url("../images/top_banner04.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(5) a{
+    background: url("../images/top_banner05.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(1) a{
+    background: url("../images/top_banner01.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(6) a{
+    background: url("../images/top_banner06.jpg") center center;
+}
+
+.slider-banner ul li:nth-child(7) a{
+    background: url("../images/top_banner07.jpg") center center;
+}
+/*轮播广告样式*/
+
+/*快速登录样式*/
+.quick-login{
+    width: 100%;
+    height: 120px;
+    background: url("../images/login_header_blurbg.jpg") center center;
+}
+
+.quick-login .quick-login-in{
+    width: 1244px;
+    height: 100%;
+    /*background-color: red;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 18px;
+}
+
+.quick-login .quick-login-in .intro{
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quick-login .quick-login-in .intro .title{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.quick-login .quick-login-in .login_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-login .quick-login-in .login_icon li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.quick-login .quick-login-in .login_icon li a{
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(1) a{
+    background: url("../images/icon.jpg") 0 0;
+}
+.quick-login .quick-login-in .login_icon li:nth-child(2) a{
+    background: url("../images/icon.jpg")60px 0;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(3) a{
+    background: url("../images/icon.jpg") 140px 0;
+}
+
+.quick-login .quick-login-in .login_icon li:nth-child(4) a {
+    background: url("../images/icon.jpg") 220px 0;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text{
+    position: relative;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text .line_left{
+    border-top:1px solid #fff;
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 10px;
+    left: -45px;
+}
+
+.quick-login .quick-login-in .login_icon .tip_text .line_right{
+    border-top:1px solid #fff;
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 10px;
+    right: -45px;
+}
+/*快速登录样式*/
+
+/*吸顶效果样式*/
+.top-nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 48px;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 999;
+    display: none;
+}
+
+.top-nav .top-nav-in{
+    width: 1244px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+
+.top-nav .top-nav-in>div{
+    width: 350px;
+    height: 100%;
+    color: #fff;
+}
+
+.top-nav .top-nav-in .left{
+    float: left;
+}
+
+.top-nav .top-nav-in .left p:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.top-nav .top-nav-in .right{
+    float: right;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.top-nav .top-nav-in .right li{
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-left: 8px;
+}
+
+.top-nav .top-nav-in .right li a{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+}
+
+.top-nav .top-nav-in .right li:nth-child(1){
+    width: 140px;
+    font-size: 14px;
+    line-height: 42px;
+}
+
+.top-nav .top-nav-in .right li:nth-child(2){
+    background: url("../images/icon2.png");
+    background-size:cover;
+}
+.top-nav .top-nav-in .right li:nth-child(3){
+    background: url("../images/icon2.png") -42px 0;
+    background-size:cover;
+}
+.top-nav .top-nav-in .right li:nth-child(4){
+    background: url("../images/icon2.png") -84px 0;
+    background-size:cover;
+}
+.top-nav .top-nav-in .right li:nth-child(5){
+    background: url("../images/icon2.png") -126px 0;
+    background-size:cover;
+}
+/*吸顶效果样式*/
+
+/*类型标题样式*/
+.type-title{
+    width: 100%;
+    height: 130px;
+    /*background-color: red;*/
+}
+
+.type-title .type-title-in{
+    position: relative;
+    width: 230px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: green;*/
+    text-align: center;
+    line-height: 130px;
+    font-size: 30px;
+    color: #666;
+}
+
+.type-title .type-title-in .line-left, .type-title .type-title-in .line-right{
+    width: 48px;
+    border-top:1px solid #666;
+    position: absolute;
+    top: 65px;
+}
+
+.type-title .type-title-in .line-left{
+    left: 15px;
+}
+
+.type-title .type-title-in .line-right{
+    right: 15px;
+}
+/*类型标题样式*/
+
+
+/*选项卡样式*/
+.tab{
+    width: 100%;
+    height: auto;
+}
+
+.tab .tab-header{
+    width: 300px;
+    height: 48px;
+    /*background-color: red;*/
+    margin: 0 auto;
+}
+
+.tab .tab-header ul li{
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.tab .tab-header ul li.current{
+    border-bottom: 1px solid orangered;
+    color: orangered;
+}
+
+.tab .tab-content{
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+.tab .tab-content .dom:nth-child(1){
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.tab .tab-content .dom:nth-child(2){
+    width: 100%;
+    background-color: green;
+}
+
+.tab .tab-content .dom:nth-child(3){
+    width: 100%;
+    background-color: yellow;
+}
+
+.tab .tab-content .dom{
+    display: none;
+}
+
+.dom_top{
+    width: 1244px;
+    padding: 16px;
+    margin: 0 auto;
+    height: 126px;
+}
+
+.dom_top li{
+    width: 236px;
+    height: 126px;
+    border-radius: 4px;
+    background-color: red;
+    float: left;
+    margin-left: 16px;
+}
+
+.dom_top li a{
+    width: 236px;
+    height: 126px;
+    display: inline-block;
+}
+
+.dom_top li:nth-child(1){
+    margin-left: 0;
+}
+
+.dom_top li:nth-child(1) a{
+    background: url("../images/top01.png");
+}
+
+.dom_top li:nth-child(2) a{
+    background: url("../images/top02.jpg");
+}
+
+.dom_top li:nth-child(3) a{
+    background: url("../images/top03.jpg");
+}
+
+.dom_top li:nth-child(4) a{
+    background: url("../images/top04.jpg");
+}
+
+.dom_top li:nth-child(5) a{
+    background: url("../images/top05.jpg");
+}
+/*选项卡样式*/
+
+.dom-pull{
+    width: 1240px;
+    padding: 20px 0;
+    position: relative;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.dom-pull .box{
+    width: 234px;
+    float: left;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.dom-pull .box .pic{
+    position: relative;
+    cursor: pointer;
+}
+
+.dom-pull .box .pic img{
+    width: 234px;
+}
+
+.dom-pull p{
+    line-height: 18px;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.dom-pull .box .pic .cover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: none;
+}
+
+.dom-pull .box .btn-box{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    background-color: red;
+    z-index: 3;
+    display: none;
+}
+
+.dom-pull .box .btn-box .collect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    background-color: #E53E49;
+    padding: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.dom-pull .box .btn-box .like{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dom-pull .box .btn-box .like .heart{
+    width: 14px;
+    height: 14px;
+    background: url("../images/action_icons12.png")  -20px 0;
+    display: inline-block;
+}
+
+/*右下角的样式*/
+.elevator-item{
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 1000;
+    opacity: 1;
+}
+
+.elevator-item .elevator {
+     width: 40px;
+     height: 36px;
+     background: url("../images/iconsprite_btbar.png") 8px 6px no-repeat;
+     display: inline-block;
+     background-color: #444;
+     background-color: rgba(0, 0, 0, .6);
+     border-radius: 4px;
+     margin-bottom: 4px;
+    display: none;
+ }
+
+.elevator-item .elevator:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.elevator-item .plus {
+    width: 40px;
+    height: 36px;
+    background: url("../images/iconsprite_btbar.png") 8px -34px no-repeat;
+    display: inline-block;
+    background-color: #444;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 4px;
+}
+
+.elevator-item .plus:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+
+/*登录面板*/
+.mask{
+    position: fixed;
+    left: 0;
+    top:0;
+
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999;
+
+    display: none;
+}
+
+.mask .mask-center{
+    width: 520px;
+    height: 420px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -160px;
+    margin-left: -260px;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.mask .mask-center .center_box{
+    width: 286px;
+    margin: 20px auto 0;
+}
+
+.mask .mask-center .close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url("../images/msg_close.png") 0 0;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+}
+
+.mask .mask-center .logo-img{
+    display: block;
+    width: 106px;
+    margin: 0 auto;
+}
+
+.txtBox{
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+    color:#999
+}
+.txtBox span:nth-child(1){
+    content: "";
+    border-top: 1px solid #ededed;
+    display: block;
+    position: absolute;
+    width: 50px;
+    top: 8px;
+    left: 0;
+}
+.txtBox span:nth-child(3){
+    content: "";
+    border-top: 1px solid #ededed;
+    display: block;
+    position: absolute;
+    width: 50px;
+    top: 8px;
+    right: 0;
+}
+.center_box .buttons{
+    margin: 15px 0 20px;
+    text-align: center;
+    /*font-size: 0;*/
+    letter-spacing: -999px;
+
+}
+.center_box .buttons a {
+    background-image: url('../images/login_icons_tiny.svg');
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    letter-spacing: 0;
+
+}
+
+.center_box .buttons a:nth-child(1){
+    display: inline-block;
+}
+.center_box .buttons a:nth-child(2){
+    display: inline-block;
+    background-position: -80px 0;
+}
+.center_box .buttons a:nth-child(3){
+    display: inline-block;
+    background-position: -160px 0;
+}
+.center_box .buttons a:nth-child(4){
+    display: inline-block;
+    background-position: -240px 0;
+}
+.center_box .buttons a:nth-child(5){
+    display: inline-block;
+    background-position: -320px 0;
+    margin-right: 0;
+
+}
+
+.center_box .mail-login {
+    margin-top: 15px;
+}
+
+.center_box .mail-login .clear-input {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.clear-input {
+    display: inline-block;
+    padding: 0 10px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 1;
+    color: #777;
+    background: #FCFCFC;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    width: 250px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    -webkit-transition: color .2s linear,border-color .3s linear;
+}
+
+.btn18 {
+    font-size: 18px;
+    padding: 0 15px;
+    border-radius: 3px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.rbtn {
+    display: block;
+    background: #E53E49;
+    background: linear-gradient( #E53E49, #D43636);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 1px 0 rgba(255,255,255,.3);
+    text-shadow: 0 -1px 0 rgba(0,0,0,.1);
+    color: #fff;
+    border: 1px solid #C90000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.switch-back {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.red-link {
+    color: #9A0000;
+}
+.center_box a {
+    cursor: pointer;
+}
+
+
+
+
+
+
+

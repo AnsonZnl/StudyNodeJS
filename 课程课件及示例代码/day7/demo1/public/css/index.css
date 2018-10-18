@@ -1,0 +1,370 @@
+*{
+    list-style: none;
+}
+/**************引入区域*****************/
+@font-face {
+    font-family: lk;
+    src: url('../fonts/lk.eot') format('embedded-opentype'),
+    url('../fonts/lk.svg') format('svg'),
+    url('../fonts/lk.ttf') format('truetype'),
+    url('../fonts/lk.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /*注意上面选择器中间的空格*/
+    /*我们使用的名为xzh的字体就是上面的@font-face的方式声明的*/
+    font-family: lk;
+    font-style: normal;
+}
+
+.btn-register {
+    color: #ffffff;
+    background-color: #0AB4F7;
+    border-color: #F2F2F5;
+}
+
+.btn-register:hover,
+.btn-register:focus,
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    color: #ffffff;
+    background-color: #086DF2;
+    border-color: #F2F2F5;
+}
+
+.btn-register:active,
+.btn-register.active,
+.open .dropdown-toggle.btn-register {
+    background-image: none;
+}
+
+.btn-register.disabled,
+.btn-register[disabled],
+fieldset[disabled] .btn-register,
+.btn-register.disabled:hover,
+.btn-register[disabled]:hover,
+fieldset[disabled] .btn-register:hover,
+.btn-register.disabled:focus,
+.btn-register[disabled]:focus,
+fieldset[disabled] .btn-register:focus,
+.btn-register.disabled:active,
+.btn-register[disabled]:active,
+fieldset[disabled] .btn-register:active,
+.btn-register.disabled.active,
+.btn-register[disabled].active,
+fieldset[disabled] .btn-register.active {
+    background-color: #0AB4F7;
+    border-color: #F2F2F5;
+}
+
+.btn-register .badge {
+    color: #0AB4F7;
+    background-color: #ffffff;
+}
+
+/**************引入区域*****************/
+
+/**************头部区域*****************/
+#lk_header {
+
+}
+
+#lk_header .top-bar {
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#lk_header .top-bar .container .row > div + div {
+    border-left: 1px solid #e0e0e0;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a {
+    position: relative;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a img {
+    display: none;
+
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -12px;
+
+    z-index: 9999;
+}
+
+#lk_header .top-bar .container .row .top-bar-1 a:hover img {
+    display: block;
+}
+
+.icon-phone::before {
+    content: '\e958';
+    font-size: 13px;
+}
+
+.icon-tel::before {
+    content: '\e942';
+    font-size: 13px;
+}
+
+#lk_header .navbar {
+    margin-bottom: 0;
+}
+
+#lk_header .navbar .icon-logo::before {
+    content: "\e920";
+    font-size: 50px;
+    line-height: 50px;
+    color: #0AB4F7;
+    vertical-align: middle;
+}
+
+#lk_header .navbar .icon-name::before {
+    content: "\e93e";
+    font-size: 36px;
+    line-height: 50px;
+    color: #000;
+    vertical-align: middle;
+}
+
+#lk_header .navbar-lk {
+    background-color: #fff;
+}
+
+#lk_header .navbar-lk .navbar-brand {
+    height: 70px;
+    padding: 10px 15px;
+}
+
+#lk_header .navbar-lk .navbar-nav a {
+    height: 70px;
+    line-height: 40px;
+}
+
+#lk_header .navbar-lk .navbar-toggle {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#lk_header .navbar-lk .navbar-nav li.active a,
+#lk_header .navbar-lk .navbar-nav li a:hover {
+    background-color: transparent;
+    color: #000;
+    border-bottom: 2px solid #0AB4F7;
+}
+
+/**************头部区域*****************/
+
+/**************焦点图区域*****************/
+#lk_carousel {
+
+}
+
+#lk_carousel .item {
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+#lk_carousel .item img {
+    width: 100%;
+}
+
+@media screen and (min-width: 790px) {
+    #lk_carousel .item {
+        height: 410px;
+    }
+}
+
+/**************焦点图区域*****************/
+
+/**************产品中心*****************/
+#lk_product {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+}
+
+#lk_product .nav {
+    font-size: 18px;
+}
+
+#lk_product .nav a {
+    color: #999;
+}
+
+#lk_product .nav li.active a {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #E9232C;
+    color: #000;
+}
+
+#lk_product .tab-content {
+    padding-top: 20px;
+}
+
+#product1 .pd-left {
+    padding: 40px 0;
+}
+
+#product1 #pd_one_1 {
+    margin: 15px 0;
+}
+
+#product1 #pd_one_2 {
+    background-color: #f0f0f0;
+    margin: 15px 0;
+}
+
+#product1 #pd_one_4 {
+    margin: 15px 0;
+}
+
+#pd_two_1 {
+    padding: 100px 0;
+}
+
+#pd_two_1 h1 {
+    margin-bottom: 15px;
+}
+
+#product3 .pd-left {
+    /*background-color: red;*/
+    margin-top: 60px;
+}
+
+/**************产品中心*****************/
+
+/**************热门课程*****************/
+#lk_hot {
+    padding: 20px 0;
+}
+
+#lk_hot .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#lk_hot .content .lesson{
+    padding: 15px 10px;
+}
+
+#lk_hot .content .media-left{
+    width: 20%;
+}
+
+#lk_hot .content .media-body {
+   /* background-color: red;*/
+    width: 60%;
+    vertical-align: middle;
+}
+
+#lk_hot .content .media-body .media-heading{
+
+}
+
+#lk_hot .content .media-right {
+    /*background-color: red;*/
+    width: 20%;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/**************热门课程*****************/
+
+/**************关于我们*****************/
+#lk_about {
+    padding: 20px 0;
+}
+
+#lk_about .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#lk_about h3 {
+    padding: 15px 0;
+}
+
+#lk_about .row p {
+    line-height: 30px;
+}
+
+/**************关于我们*****************/
+
+/**************合作单位*****************/
+#lk_partner {
+    padding: 20px 0;
+}
+
+#lk_partner .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#lk_partner .logos{
+    text-align: center;
+}
+
+#lk_partner .logos li{
+    padding: 20px 30px;
+    display: inline-block;
+}
+/**************合作单位*****************/
+
+#lk_footer{
+    width: 100%;
+    height: 200px;
+    background: url("../images/ft_bg.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+#lk_footer .one, #lk_footer .two{
+    padding: 10px;
+    border-right: 1px solid #666;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lk_footer .one li{
+    line-height: 40px;
+}
+
+#lk_footer .one li a{
+    color: #fff;
+}
+
+#lk_footer .three{
+    padding: 10px 50px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#lk_footer .three a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+

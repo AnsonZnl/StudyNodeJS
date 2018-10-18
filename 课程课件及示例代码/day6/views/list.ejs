@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度风云排行版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        #panel {
+            width: 500px;
+            border: 1px solid #c6c8ca;
+            margin: 100px auto;
+        }
+
+        #panel_header {
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #ccc;
+            line-height: 44px;
+            color: #777;
+        }
+
+        #panel_body > li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            line-height: 44px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .c-icon {
+            background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/global/img/icons_5859e57.png) no-repeat 0 0;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            vertical-align: text-bottom;
+            font-style: normal;
+            overflow: hidden;
+        }
+
+        .opr-toplist-st {
+            margin-bottom: 2px;
+        }
+
+        .c-icon-up {
+            background-position: -720px -168px;
+        }
+
+        .c-icon-down {
+            background-position: -744px -168px;
+        }
+
+        .left {
+            margin-left: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .left .no {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 18px;
+            height: 18px;
+            background-color: red;
+            color: #fff;
+            margin: 5px;
+        }
+
+        .right {
+            margin-right: 10px;
+        }
+
+        #panel_footer {
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px;
+            color: #777;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<section id="panel">
+    <div id="panel_header">
+        <span>排名</span>
+        <span>搜索指数</span>
+    </div>
+    <ul id="panel_body">
+        <%
+            for (var i = 0; i < lists.length; i++) {
+        %>
+        <li>
+            <div class="left">
+                <span class="no" style="background-color: <%= (i+1) > 3 ? "blue" : "red" %>"><%= (i+1) %></span>
+                <span><%= lists[i].title %></span>
+            </div>
+            <div class="right">
+                <span><%= lists[i].count %></span>
+                <% if(lists[i].up === 1){ %>
+                   <i class="opr-toplist-st c-icon c-icon-up"></i>
+                <% }else { %>
+                   <i class="opr-toplist-st c-icon c-icon-down"></i>
+                <% } %>
+            </div>
+        </li>
+        <%
+           }
+        %>
+    </ul>
+    <div id="panel_footer">
+        <span style="margin-right: 5px">来源:</span>
+        <span><%= source %></span>
+    </div>
+</section>
+</body>
+</html>

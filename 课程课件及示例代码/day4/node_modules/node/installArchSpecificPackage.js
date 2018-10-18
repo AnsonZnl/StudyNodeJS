@@ -1,0 +1,1 @@
+require('node-bin-setup')("9.11.0", require)

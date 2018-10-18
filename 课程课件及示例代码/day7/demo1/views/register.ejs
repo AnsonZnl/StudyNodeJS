@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>撩课学院-IT人的自我成长社区</title>
+    <meta name="keyword" content="撩课学院,教育,it线上教育">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="icon" href="images/lk_favicon.ico" type="image/x-icon"/>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body>
+<div class="sign-top">
+    <div class="container">
+        <div class="link">
+            <ul>
+                <li><a href="/login">登录</a></li>
+                <li class="on"><a href="/reg">注册</a><span class="slider"></span></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="/">
+                <img src="images/lk_logo_sm.png" alt="" width="200">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="sign-body register" style="padding-top: 60px;">
+    <div class="container clearfix" style="height: 400px;">
+        <div class="ad">
+            <a href="#" style="background: url(images/reg.jpg) center no-repeat; -webkit-background-size: cover;background-size: cover;"></a>
+        </div>
+        <div class="formBox">
+            <h2>注册会员</h2>
+            <form action="/reg" id="register" method="post">
+                <ul>
+                    <li>
+                        <input type="text" class="input-box" name="userName" id="user_name" placeholder="请输入用户名">
+                        <p class="error-msg"></p>
+                    </li>
+                    <li>
+                        <input type="password" class="input-box" name="loginPwd" placeholder="密码">
+                        <p class="error-msg"></p>
+                    </li>
+                    <li>
+                        <input type="submit" class="btn-large" id="regist_btn" value="注册">
+                    </li>
+                    <li class="option">
+                        已有账号?<a href="/login" class="sublink">立即登录</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div class="footer navbar-fixed-bottom">
+        Copyright&copy;2018-2028    撩课学院 旋之华
+    </div>
+</div>
+</body>
+</html>
