@@ -12,6 +12,7 @@
 ### Node.js基础-Part3
 1. [课时26-课时29笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B626-%E8%AF%BE%E6%97%B629%E7%AC%94%E8%AE%B0.md)
 2. [课时30-课时34笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B630-%E8%AF%BE%E6%97%B634%E7%AC%94%E8%AE%B0.md)
-
+### Node.js基础-Part4
+1. [课时35-课时40笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B635-%E8%AF%BE%E6%97%B640%E7%AC%94%E8%AE%B0.md)
 主讲老师：叶建华老师  
 课程地址：https://study.163.com/course/courseMain.htm?courseId=1005269026
