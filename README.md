@@ -6,13 +6,13 @@
 ### Node.js基础-Part1
 1. [课时1-课时5笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B61-%E8%AF%BE%E6%97%B65%E7%AC%94%E8%AE%B0.md)   
  - Node前言、Node简介、Node应用方向    
-   
 2. [课时6-课时10笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B66-%E8%AF%BE%E6%97%B610%E7%AC%94%E8%AE%B0.md)   
 - Node应用场景、客服端与服务器、资源访问流程 
 3. [课时11-课时16笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B611-%E8%AF%BE%E6%97%B616%E7%AC%94%E8%AE%B0.md)
 - Http协议、命令行管理、线程与进程、安装Node、运行Node
 ### Node.js基础-Part2
 1. [课时17-课时21笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B617-%E8%AF%BE%E6%97%B621%E7%AC%94%E8%AE%B0.md)
+- 什么是模块化、
 2. [课时22-课时25笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B622-%E8%AF%BE%E6%97%B625%E7%AC%94%E8%AE%B0.md)
 
 ### Node.js基础-Part3
