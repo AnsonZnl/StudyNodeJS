@@ -1,7 +1,8 @@
 ## 目录
 
 [思维导图](https://github.com/AnsonZnl/StudyNodeJS/tree/master/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE)  
-[Node.js中文网](http://nodejs.cn/)
+[Node.js中文网](http://nodejs.cn/)   
+[MongoDB中文网](http://www.mongodb.org.cn/)   
 
 ### Node.js基础-Part1
 1. [课时1-课时5笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B61-%E8%AF%BE%E6%97%B65%E7%AC%94%E8%AE%B0.md)   
@@ -43,7 +44,7 @@
 课程地址：https://study.163.com/course/courseMain.htm?courseId=1005269026  
 
 参考资料：    
-[MongoDB中文网](http://www.mongodb.org.cn/)   
+
 [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
 [Node入门](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
 [Express 框架](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
