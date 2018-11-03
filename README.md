@@ -24,7 +24,7 @@
 ### Node.js基础-Part4
 1. [课时35-课时40笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B635-%E8%AF%BE%E6%97%B640%E7%AC%94%E8%AE%B0.md)   
 - Node数据库基本概念、MongoDB数据库安装、命令行中使用MongoDB、MongoDB可视化工具、MongoDB数据库查询、MongoDB数据库更新
-2. [课时41-课时47笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B641-%E8%AF%BE%E6%97%B647%E7%AC%94%E8%AE%B0.md) 
+2. [课时41-课时45笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B641-%E8%AF%BE%E6%97%B645%E7%AC%94%E8%AE%B0.md) 
 - 数据库删除、数据库练习复习、多集合操作、集合中文档与文档中的关系、数据库一对一/一对多/多对多
 
 
