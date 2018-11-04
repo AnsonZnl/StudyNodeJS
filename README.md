@@ -29,6 +29,8 @@
 - 数据库删除、数据库练习复习、多集合操作、集合中文档与文档中的关系、
 3. [课时46-课时49笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B646-%E8%AF%BE%E6%97%B649%E7%AC%94%E8%AE%B0.md) 
 - 集合中文档关系、集合一对一（夫妻）一对多（微博与评论）多对多（学生与老师）练习、集合中的排序和索引
+4. [课时50-课时55笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B650-%E8%AF%BE%E6%97%B655%E7%AC%94%E8%AE%B0.md) 
+- Mongoose的简介和Mongoose使用、NodeJS中使用Mongoose对MongoDB数据库增删改查
 
 
 
