@@ -17,7 +17,7 @@
 2. [课时22-课时25笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B622-%E8%AF%BE%E6%97%B625%E7%AC%94%E8%AE%B0.md)
 - exports和module.exports的区别、npm/cnpm/yarn包管理器
 
-### Node.js基础-Part3 BUffer和fs
+### Node.js基础-Part3 Buffer和fs
 1. [课时26-课时29笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B626-%E8%AF%BE%E6%97%B629%E7%AC%94%E8%AE%B0.md)
 - Node基础知识回顾、Buffer介绍、Buffer使用
 2. [课时30-课时34笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B630-%E8%AF%BE%E6%97%B634%E7%AC%94%E8%AE%B0.md)  
