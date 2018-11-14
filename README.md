@@ -55,5 +55,5 @@
 
 [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
 [Node入门](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
-[Express 框架](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
+[狼叔：如何正确的使用Node.js](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)  
 
