@@ -35,7 +35,7 @@
 
 ### Node.js基础-Part5 HTTP精讲
 1. [课时56-课时60笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B656-%E8%AF%BE%E6%97%B660%E7%AC%94%E8%AE%B0.md)   
-- 启动一个http服务、http的路由设计、http-URL解析 练习：[Node表单提交](https://github.com/AnsonZnl/NodeForm)
+- 启动一个http服务、http的路由设计、http-URL解析 练习：[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
 
 
 
@@ -53,7 +53,8 @@
 
 参考资料：    
 
-[使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
 [Node入门](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
 [狼叔：如何正确的使用Node.js](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)  
+[使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
+
 
