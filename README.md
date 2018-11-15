@@ -21,7 +21,7 @@
 1. [课时26-课时29笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B626-%E8%AF%BE%E6%97%B629%E7%AC%94%E8%AE%B0.md)
 - Node基础知识回顾、Buffer介绍、Buffer使用
 2. [课时30-课时34笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B630-%E8%AF%BE%E6%97%B634%E7%AC%94%E8%AE%B0.md)  
-- fs同步文件写入、fs异步文件写入、fs文件流写入、fs读写文件 练习：[先使用Node写一个爬虫](https://github.com/AnsonZnl/NodeSpider)
+- fs同步文件写入、fs异步文件写入、fs文件流写入、fs读写文件 **练习：**[先使用Node写一个爬虫](https://github.com/AnsonZnl/NodeSpider)
 
 ### Node.js基础-Part4 数据库篇
 1. [课时35-课时40笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B635-%E8%AF%BE%E6%97%B640%E7%AC%94%E8%AE%B0.md)   
@@ -35,7 +35,7 @@
 
 ### Node.js基础-Part5 HTTP精讲
 1. [课时56-课时60笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B656-%E8%AF%BE%E6%97%B660%E7%AC%94%E8%AE%B0.md)   
-- 启动一个http服务、http的路由设计、http-URL解析 练习：[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
+- 启动一个http服务、http的路由设计、http-URL解析 **练习：**[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
 
 
 
