@@ -35,7 +35,10 @@
 
 ### Node.js基础-Part5 HTTP精讲
 1. [课时56-课时60笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B656-%E8%AF%BE%E6%97%B660%E7%AC%94%E8%AE%B0.md)   
-- 启动一个http服务、http的路由设计、http-URL解析 **练习：**[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
+- 启动一个http服务、http的路由设计、http-URL解析 
+
+2. [课时61-课时65笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B661-%E8%AF%BE%E6%97%B665%E7%AC%94%E8%AE%B0.md)   
+- 表单提交、get/post请求、图片上传处理，[node-formidable](https://github.com/felixge/node-formidable)、[node-uuid ](https://github.com/kelektiv/node-uuid)的使用。**练习：**[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
 
 
 
