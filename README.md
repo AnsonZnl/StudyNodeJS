@@ -41,7 +41,7 @@
 - 表单提交、get/post请求、图片上传处理，[node-formidable](https://github.com/felixge/node-formidable)、[node-uuid ](https://github.com/kelektiv/node-uuid)的使用。**练习：**[写个Node表单提交](https://github.com/AnsonZnl/NodeForm)
 
 3. [课时66-课时71笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B666-%E8%AF%BE%E6%97%B671%E7%AC%94%E8%AE%B0.md)   
-- 使用Node搭建静态资源库，[path-normalize 正常化路径](http://nodejs.cn/api/path.html#path_path_normalize_path)，[常见的mime类型](https://blog.csdn.net/kuangshp128/article/details/75207984)。模板引擎之ejs -- https://ejs.bootcss.com/
+- 使用Node搭建静态资源库，[path-normalize 正常化路径](http://nodejs.cn/api/path.html#path_path_normalize_path)，[常见的mime类型](https://blog.csdn.net/kuangshp128/article/details/75207984)、模板引擎之ejs 
 
 ### Node.js进阶-Part6 Express框架
 1. [课时72-课时77笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B672-%E8%AF%BE%E6%97%B677%E7%AC%94%E8%AE%B0.md)   
