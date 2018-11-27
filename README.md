@@ -61,7 +61,7 @@
 课程地址：https://study.163.com/course/courseMain.htm?courseId=1005269026  
 
 参考资料：    
-
+* [CNode：Node.js专业中文社区](https://cnodejs.org)
 * [Node入门](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
 * [狼叔：如何正确的使用Node.js](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)  
 * [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
