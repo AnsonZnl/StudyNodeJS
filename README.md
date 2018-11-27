@@ -43,7 +43,9 @@
 3. [课时66-课时71笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B666-%E8%AF%BE%E6%97%B671%E7%AC%94%E8%AE%B0.md)   
 - 使用Node搭建静态资源库，[path-normalize 正常化路径](http://nodejs.cn/api/path.html#path_path_normalize_path)，[常见的mime类型](https://blog.csdn.net/kuangshp128/article/details/75207984)。模板引擎之ejs -- https://ejs.bootcss.com/
 
-
+### Node.js进阶-Part6 Express框架
+1. [课时72-课时77笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B672-%E8%AF%BE%E6%97%B677%E7%AC%94%E8%AE%B0.md)   
+- Express简介、[Express 路由基础](http://www.expressjs.com.cn/starter/basic-routing.html)、[利用 Express 托管静态文件](http://www.expressjs.com.cn/starter/static-files.html)、Express-请求(request)和响应(response)、使用EJS模板引擎
 
 
    
@@ -63,5 +65,7 @@
 * [Node入门](https://www.nodebeginner.org/index-zh-cn.html#handling-post-requests)  
 * [狼叔：如何正确的使用Node.js](https://cnodejs.org/topic/5ab3166be7b166bb7b9eccf7)  
 * [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)  
-* [Mongoose 使用](http://www.cnblogs.com/zhongweiv/p/mongoose.html)
+* [Mongoose 使用](http://www.cnblogs.com/zhongweiv/p/mongoose.html)    
+* [Express官方文档](http://www.expressjs.com.cn/)    
+* [EJS 文档](https://ejs.bootcss.com/)
 
