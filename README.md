@@ -68,4 +68,4 @@
 * [Mongoose 使用](http://www.cnblogs.com/zhongweiv/p/mongoose.html)    
 * [Express官方文档](http://www.expressjs.com.cn/)    
 * [EJS 文档](https://ejs.bootcss.com/)
-
+* [Node.js基于Express框架搭建一个简单的注册登录Web功能](https://www.cnblogs.com/imwtr/p/4360341.html)
