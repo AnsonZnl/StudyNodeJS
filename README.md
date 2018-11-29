@@ -47,6 +47,15 @@
 1. [课时72-课时77笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B672-%E8%AF%BE%E6%97%B677%E7%AC%94%E8%AE%B0.md)   
 - Express简介、[Express 路由基础](http://www.expressjs.com.cn/starter/basic-routing.html)、[利用 Express 托管静态文件](http://www.expressjs.com.cn/starter/static-files.html)、Express-请求(request)和响应(response)、使用EJS模板引擎
 
+2. [课时78-课时81笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B678-%E8%AF%BE%E6%97%B681%E7%AC%94%E8%AE%B0.md)   
+- Express简介
+
+3. [课时82-课时86笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B682-%E8%AF%BE%E6%97%B686%E7%AC%94%E8%AE%B0.md)   
+- Express简介
+
+4. [课时87-课时91笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B687-%E8%AF%BE%E6%97%B691%E7%AC%94%E8%AE%B0.md)   
+- Express简介
+
 
    
    
