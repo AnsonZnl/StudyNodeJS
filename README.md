@@ -48,14 +48,13 @@
 - Express简介、[Express 路由基础](http://www.expressjs.com.cn/starter/basic-routing.html)、[利用 Express 托管静态文件](http://www.expressjs.com.cn/starter/static-files.html)、Express-请求(request)和响应(response)、使用EJS模板引擎
 
 2. [课时78-课时81笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B678-%E8%AF%BE%E6%97%B681%E7%AC%94%E8%AE%B0.md)   
-- 使用 [Express 应用程序生成器](http://www.expressjs.com.cn/starter/generator.html)
-![65b626104bdbc6a7e30ff1745b47b71.png](https://upload-images.jianshu.io/upload_images/7072486-7681306716939756.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)快速生成一个Express工程目录 ,做一个聊天机器人，新添加的页面的额资源配置和注意的点
+- 使用 [Express 应用程序生成器](http://www.expressjs.com.cn/starter/generator.html) 快速生成一个Express工程目录 ,做一个聊天机器人，新添加的页面的额资源配置和注意的点
 
 3. [课时82-课时86笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B682-%E8%AF%BE%E6%97%B686%E7%AC%94%E8%AE%B0.md)   
 - 用户注册和用户登录的逻辑，配置聊天界面，[socket.io简介](https://socket.io/)
 
 4. [课时87-课时91笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B687-%E8%AF%BE%E6%97%B691%E7%AC%94%E8%AE%B0.md)   
-- 如何在Express中使用socket.io ,服务端接受消息回应，插入消息，处理客户端的消息，关闭聊天窗口 **练习：**[聊天机器人--小乐](https://github.com/AnsonZnl/xiaole)
+- 如何在Express中使用socket.io ,服务端接受消息回应，插入消息，处理客户端的消息，关闭聊天窗口 **练习：**[聊天机器人-小乐](https://github.com/AnsonZnl/xiaole)
 
 
    
