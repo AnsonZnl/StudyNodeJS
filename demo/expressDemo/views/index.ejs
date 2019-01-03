@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>EJS 模板引擎</title>
+</head>
+<body>
+<h4><%=source %></h4>
+<ul>
+    <% for(var i=0; i<list.length; i++){ %>
+        <li><%= list[i].name %> | <%= list[i].age %> | <%= list[i].sex %></li>
+    <% } %>    
+</ul>
+</body>
+</html>

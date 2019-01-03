@@ -12,5 +12,14 @@
 ### Node.js基础-Part3
 1. [课时26-课时29笔记](https://github.com/AnsonZnl/StudyNodeJS/blob/master/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/%E8%AF%BE%E6%97%B626-%E8%AF%BE%E6%97%B629%E7%AC%94%E8%AE%B0.md)
 
+
 主讲老师：叶建华老师  
 课程地址：https://study.163.com/course/courseMain.htm?courseId=1005269026
+
+-----
+**Node.js参考书籍：**
+[Node 入门](https://www.nodebeginner.org/index-zh-cn.html)  
+[七天学会Node.js](http://nqdeng.github.io/7-days-nodejs/#3.4.2)  
+[Express框架](http://javascript.ruanyifeng.com/nodejs/express.html)  
+
+

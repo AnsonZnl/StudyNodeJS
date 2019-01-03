@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-top: 100px;
+    background: url('../images/bg.jpeg')
+}
+h1{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
