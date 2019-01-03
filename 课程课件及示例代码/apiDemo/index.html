@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Node.js-ApiDemo</title>
+</head>
+<body>
+    <div id="box">看不到看不到</div>
+    <button onclick="success()">我是按钮</button>
+    <script>
+    function success(){
+        var http= new XMLHttpRequest();
+        http.onreadystatechange= function(){
+            if(http.status == 200 && http.readyState == 4){
+                var msg= http.responseText;
+                var box= document.getElementById('box');
+                box.innerHTML= JSON.parse(msg).name;
+            }
+        }
+        //发送请求
+        http.open('GET', '/data');
+        http.send();
+    }
+    </script>
+</body>
+</html>
