@@ -13,7 +13,7 @@ app.get('/', function(req, res,) {
         res.render('index', dataJson);
     })
 });
-//访问data.json 拿到数据解析并返回
+//访问data.json 拿到数据解析成对象并返回
 const getDataJson=(callBack)=>{
     fs.readFile('./data.json', (err, data)=>{
         if(!err){
